@@ -1,0 +1,215 @@
+#app {
+  display: flex;
+  flex-direction: column;
+}
+body {
+ dispay: flex;
+ background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/coffee-stained-paper-texture-3.jpg");
+   font-family: 'Dongle', sans-serif;
+
+}
+
+/* navigation bar */
+
+.top-bar a {
+  /* remove link color and underline */
+  color: #81573d;
+  text-decoration: none;
+  display: block;
+  font-family: 'Dongle', sans-serif;
+  font-size: 2.5rem;
+}
+
+i {
+  padding: 20px;
+}
+
+ul {
+  /* remove list styles */
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* nav links */
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  row-gap: 10px;
+  font-size: 2.5rem;
+  font-family: 'Dongle', sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 0 1rem;
+  background-color: #FFFFFF; opacity: .75; filter: alpha(opacity=20);
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  color: white;
+  flex-direction: row;
+}
+
+.logo-wrapper a {
+  display: flex;
+  align-items: center;
+  transition: 300ms color;
+  color:  #81573d ;
+  font-size: 2.5rem;
+}
+.logo-wrapper a:hover {
+  color: white;
+}
+.logo-wrapper p {
+  font-size: 2.5rem;
+}
+.logo-wrapper i {
+  font-size: clamp(3.5rem, 10vw, 4rem);
+}
+
+/* main content */
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border: 10px outset #81573d;
+  border-radius: 2px;
+  margin: 2rem 250px 2rem 250px;
+  font-family: 'Dongle', sans-serif;
+  background-image: url(https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/coffee-stained-paper-texture-3.jpg); 
+}
+
+.main-header p {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #81573d;
+  font-family: 'Dongle', sans-serif;
+}
+
+.main-header h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  color:  #492e0d;
+  font-family: 'Dongle', sans-serif;
+}
+
+/* image from plexel */
+
+.img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 500px;
+  align-items: center;
+  padding: 40px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  border: 10px inset #81573d;
+}
+
+/* content 3 paragraphs */
+
+.main-content {
+  
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  color: #492e0d;
+  align-content: center;
+  column: 3;
+  column-gap: 20px;
+  padding: 20px;
+  font-family: 'Dongle', sans-serif;
+  margin: 2rem 100px 5rem 100px;
+}
+
+.second-para {
+  
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  color: #492e0d;
+  align-content: center;
+  column: 2;
+  column-gap: 20px;
+  padding: 20px;
+  font-family: 'Dongle', sans-serif;
+  margin: 2rem 100px 5rem 100px;
+}
+
+.third-para {
+  
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  color: #492e0d;
+  align-content: center;
+  padding: 20px;
+  font-family: 'Dongle', sans-serif;
+  margin: 2rem 150px 5rem 150px;
+}
+
+/* title formats */
+
+.title {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  text-align: center;
+  color: #81573d;
+  font-family: 'Dongle', sans-serif;
+}
+
+.title2 {
+   display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  color: #81573d;
+  font-family: 'Dongle', sans-serif;
+}
+
+.title3 {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  text-align: center;
+  color: #81573d;
+  font-family: 'Dongle', sans-serif;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-top: 10px;
+  background-color: #81573d;
+  font-size: 3rem;
+  color: white;
+  background-color: #81573d; opacity: 0.45; filter: alpha(opacity=50);
+}
+
